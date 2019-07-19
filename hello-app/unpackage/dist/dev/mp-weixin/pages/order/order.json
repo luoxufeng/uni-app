@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "寄件",
+  "usingComponents": {
+    "base-info": "/pages/order/baseInfo",
+    "list-cell": "/components/mix-list-cell",
+    "base-popup": "/pages/order/basePopup"
+  }
+}

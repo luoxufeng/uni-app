@@ -1,0 +1,43 @@
+@charset "UTF-8";
+/* 页面左右间距 */
+/* 文字尺寸 */
+/*文字颜色*/
+/* 边框颜色 */
+/* 图片加载中颜色 */
+/* 行为相关颜色 */
+.b-bottom {
+  background: #fff;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  font-size: 28rpx;
+}
+.b-bottom .b-content {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: baseline;
+    -webkit-align-items: baseline;
+        -ms-flex-align: baseline;
+            align-items: baseline;
+    padding: 20rpx 30rpx;
+    line-height: 80rpx;
+    position: relative;
+}
+.b-bottom .b-content .cell-tip {
+      color: #47086c;
+}
+.b-bottom .b-content .btnSend {
+      width: 200rpx;
+      height: 100%;
+      background: #47086c;
+      color: #fff;
+      -webkit-box-pack: end;
+      -webkit-justify-content: flex-end;
+          -ms-flex-pack: end;
+              justify-content: flex-end;
+      margin-right: 0;
+}
+
